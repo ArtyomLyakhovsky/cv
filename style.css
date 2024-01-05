@@ -1,0 +1,70 @@
+.cv {
+  display: flex;
+  justify-content:center;
+  margin-top: 50px;
+}
+.img-conteiner{
+  overflow:hidden;
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 5px solid rgb(26, 233, 233);
+  border-radius: 50%;
+}
+.img-conteiner img {
+  width:100%;
+  object-fit: cover;
+}
+.left {
+  background-color: rgb(88, 255, 255);
+  height: 920px;
+  width: 300px;
+}
+.right {
+  background-color: rgb(191, 218, 218);
+  height: 920px;
+  width: 500px;
+}
+.contacts, .skill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(185, 226, 226);
+}
+.phone, .email, .github, .adress, .ul{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.profession {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.information, .dop-iformation {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 30px;
+}
+p {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5px;
+  font-size: 20px;
+}
